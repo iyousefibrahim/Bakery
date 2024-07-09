@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+}
+
+
+/* Nav Section Start */
+
+
+div.nav {
+    font-family: "Alegreya";
+    margin: 20px;
+}
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+}
+
+div.nav .logo, .links {
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+div.nav .container .links a:hover {
+    color: #E0C189;
+    transition: 0.3s;
+}
+
+div.nav .logo {
+    width: 180px;
+}
+
+
+div.nav .links {
+    padding-left: 550px;
+}
+
+div.nav .links a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Nav Section End */
+
+
+/* Home Section Start */
+
+.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position-y: 35%;
+    overflow: auto;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.main-home {
+    text-align: center;
+    margin-top: 200px;
+}
+
+div.main-home .home-text {
+    color: #FFFFFF;
+    font-family: "Alegreya";
+}
+
+div.main-home .home-text h3 {
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+div.main-home .home-text h2 {
+    line-height: 91px;
+    font-weight: 400;
+    font-size: 76px;
+}
+
+div.main-home .home-text p {
+    font-size: 24px;
+    line-height: 45px;
+    padding-top: 10px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+
+div.main-home .home-text  span {
+    display: block;
+}
+
+
+div.home .home-btns button {
+    margin: 30px 10px 0 15px;
+    padding: 15px 30px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+div.home .home-btns button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+div.home .home-btns .learn-btn {
+    color: white;
+    background-color: #8e7754;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+div.home .home-btns .contact-btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+/* Home Section End */
+
+
+/* Who we are Section Start */
+
+
+
+div.who-we-are .container {
+    margin: 70px;
+    text-align: left;
+}
+
+div.who-we-are .main-pic {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+div.who-we-are .main-text {
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(48, 48, 48);
+    width: 560px;
+    display: inline-block;
+    vertical-align: top; 
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+div.who-we-are .main-text h3 {
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+div.who-we-are .main-text p {
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 400px;
+}
+
+div.who-we-are .icons {
+    
+    display: inline-block;
+    vertical-align: top; 
+    width: 350px;
+}
+
+div.who-we-are .icons .item img {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle; 
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+}
+
+
+div.who-we-are .icons{
+    margin-top: 20px;
+}
+div.who-we-are .icons .item
+{
+    margin-top: 10px;
+}
+
+div.who-we-are .icons .item p {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400px;
+    margin-left: 10px; 
+    margin-top: 20px;
+}
+
+/* Who we are Section End */
+
+/* Location Section Start */
+
+
+.location .container {
+    margin-top: 40px;
+    background-color: #F8F8F8;
+    width: 100%;
+    padding-bottom: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.location .container .main-text {
+    margin-top: 200px;
+    display: inline-block;
+    text-align: left;
+    height: 50%;
+    width: 45%; 
+    vertical-align: top; 
+}
+
+.location .container img {
+    margin-left: 10px;
+    margin-top: 100px;
+    width: 43%; 
+    display: inline;
+    vertical-align: top; 
+}
+
+.location .container .main-text h3 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: rgb(48, 48, 48);
+}
+
+.location .container .main-text p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+    line-height: 32px;
+    padding-top: 30px;
+}
+/* Location Section End */
+
+
+
+
+/* Products Section Start */
+
+.products {
+    margin-top: 90px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.products .container {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-align: center;
+    height: 700px;
+}
+
+
+
+.products .container .main-text h2 {
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+}
+
+.products .container .main-text p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+    padding-top: 20px;
+}
+
+
+.products .container .cards h3 {
+    padding-top: 20px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+}
+
+
+.products .container .cards p {
+    padding-top: 20px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: rgb(48, 48, 48);
+}
+
+
+.products .container .cards {
+    margin-top: 60px; 
+    margin-left: 55px;
+}
+
+.products .container .cards .item {
+    float: left;
+    width: 30%; 
+    margin-right: 20px; 
+}
+
+.products .container .cards img {
+    width: 100%; 
+}
+
+.clr {
+    clear: both; 
+}
+
+/* Products Section End */
+
+/* Contact Section Start */
+
+    .contact-section {
+        width: 100%;
+        height: 670px;
+    }
+    .contact-section .container {
+        background-color: #F8F8F8;
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+    }
+
+    .contact-section .contact-icons .item img {
+        width: 35px;
+    }
+
+    .contact-section .main-text {
+        float: left;
+        margin-top: 100px;
+        width: 50%;
+        padding-left: 60px;
+    }
+
+    .contact-section .main-text h2 {
+        font-family: "Alegreya";
+        font-size: 32px;
+        font-weight: 400;
+        color:rgb(48, 48, 48);
+    }
+
+    .contact-section .main-text span {
+        display: block
+    }
+
+    .contact-section .main-text p {
+        padding-top: 20px;
+        font-family: "Alegreya Sans", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 32px;
+        color:rgb(104, 104, 104);
+    }
+
+    .contact-section iframe {
+        margin-top: 100px;
+
+    }
+
+
+    .contact-section .contact-icons img {
+        text-align: center;
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        background-color: #8E7754;
+        vertical-align: middle;
+    }
+
+    .contact-section .contact-icons p {
+        padding: 10px;
+        display: inline-block;
+
+    }
+    .contact-section .contact-icons {
+        width: fit-content;
+    }
+
+/* Contact Section End */
+
+
+/* About Section Start */
+.about {
+    background-color: #403D38;
+    width: 100%;
+    overflow: hidden;
+}
+.about .container {
+    padding-left: 50px;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 150px;
+    width: 100%;
+    margin: unset;
+    padding-top: 50px; 
+    height: 450px;
+    padding-left: 10px;
+}
+
+.about .container .about-us
+,.about .container .special
+,.about .container .opening
+,.about .container .contact
+{
+    margin: 15px;
+    margin-left: 15px;
+    float: left;
+    width: 22%;
+}
+
+.about .container .item img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+}
+
+.about .container p,
+.about .container .item span {
+    display: inline-block;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.about .container .item {
+    padding: 10px;
+}
+.about .container .item span {
+    padding-left: 35px;
+}
+
+.about .container h3 {
+    font-family: "Alegreya";
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.about .container .about-us .p2 {
+    padding-top: 10px;
+}
+
+
+/* About Section End */
+
+/* Footer Section Start */
+
+    .footer .container {
+        background-color: #353330;
+        padding-top: 60px;
+        margin: unset;
+        width: 100%;
+        text-align: center;
+        overflow: auto;
+        height: 300px;
+    }
+
+    .footer .container .footer-logo {
+        width: 350px;
+    }
+
+    .footer .container .icons .item img {
+        float: left;
+        width: 50px;
+    }
+
+
+    .footer .container .icons .item img {
+        border: 1px solid transparent;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: #484540;
+    }
+    .footer .container .icons {
+        padding-top: 15px;
+        margin-left: 550px ;
+    }
+    .footer .container p {
+        color: rgb(119, 119, 119);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-top: 20px;
+    }   
+    
+/* Footer Section End */
+
+
+
+
