@@ -1,6 +1,4 @@
-# Assignment-3-Bakery-
-
-Bakery Website Project
+Bakery
 
 Overview
 This project is a modern, responsive website for a bakery business. The website provides comprehensive information about the bakery, including its location, offerings, gallery, blog, and contact information. The design is clean and user-friendly, making it easy for visitors to navigate and find the information they need.
